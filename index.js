@@ -27,7 +27,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
       case "j":
         var snare = new Audio("sounds/snare.mp3");
-        tom1.play();
+        snare.play();
         break;
 
       case "k":

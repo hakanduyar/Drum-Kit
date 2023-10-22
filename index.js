@@ -43,5 +43,9 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
       default:
         console.log(buttonInnerHTML);
     }
+
+    document.addEventListener("keydown", function () {
+      alert("Key was pressed!");
+    });
   });
 }
